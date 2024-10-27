@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: grey;
+  }
+  
+  table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  button {
+    color: black;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: gainsboro;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  input[readonly] {
+    background-color: gainsboro;
+  }
